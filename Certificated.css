@@ -1,0 +1,50 @@
+html
+{
+    box-sizing: none;
+
+}
+body
+{
+ 
+    inline-size: 100%;
+    block-size: 100vh;
+   overflow: hidden;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+   
+}
+div
+{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+img
+{
+   inline-size: 62%
+}
+@media only screen and (max-width: 400px)  {
+
+body
+{
+    position: relative;
+}
+div
+{position: absolute;
+   top: 20px;
+    
+    
+
+
+}
+    img
+{
+   inline-size: 80%
+}
+}
